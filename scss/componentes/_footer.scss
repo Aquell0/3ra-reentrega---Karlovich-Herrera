@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: $espaciado;
+    background-color: map-get($map: $colores, $key: fondo-primario);
+    div{
+       p{
+          color: map-get($map: $colores, $key: texto-primario);
+       }
+       
+    };
+    nav{
+       a{
+          color: map-get($map: $colores, $key: texto-primario);
+          text-decoration: none;
+       }
+    }
+ }
